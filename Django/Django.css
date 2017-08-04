@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#Green_Header{
+  height: 100px;
+  background-color: green;
+}
+
+#Djangoproject1{
+  color: white;
+  font-family: courier;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#blurb1{
+  width: 120px;
+  color: white;
+  font-family: Arial;
+  font-size: 8px;
+  display: inline-block;
+}
+
+#links{
+   float: right;
+}
+
+.Djangoproject{
+  color: white;
+  font-family: courier;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#slogan1{
+  height: 60px;
+  width: 500px;
+  font-size: 40px;
+  font-weight: 300;
+  display: block;
+}
+
+#box-1{
+  height: 70px;
+  width: 150px;
+  background-color: green;
+  display: inline-block;
+}
+
+#meet_django{
+  display: block;
+}

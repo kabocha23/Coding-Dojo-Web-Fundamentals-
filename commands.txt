@@ -1,0 +1,16 @@
+Windows key + 'R'
+Type "cmd" in 'Run' 
+cd Desktop
+md test
+cd test
+copy NUL index.html
+copy NUL styles.css
+copy NUL commands.txt
+copy index.html index2.html
+del styles.css
+cd ..
+md destination
+move .\test\index2.html .\destination
+dir test
+dir destination
+rd destination

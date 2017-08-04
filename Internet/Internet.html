@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Internet</title>
+		<link rel="stylesheet" type="text/css" href="Internet.css">
+	</head>
+	<body>
+		<!--Row 1, Header-->
+		<div id="head_container">
+			<img id="globe" src="./images/globe.png" alt="globe_png">
+			<h1 id="main_head">The Inter<span class="title_highlight">net</span></h1>
+			<h1 id="sub_head">The World Wide Web</h1>	
+		</div>
+		<!--Row 2, Main Content-->
+		<!--Sidebar-->
+		<div id="sidebar_container">
+			<div id="sb_box1">
+				<p id="sb_box1_text1">So, what's an <span class="highlight_1">Internet?</span></p>
+				<p id="sb_box1_text2">An <span class="highlight_2">Inter</span>connected <span class="highlight_2">Net</span>work of computers all around the world!</p>
+				<input id="watch_video_button" href="#" type="button" name="WATCH_A_VIDEO" value="WATCH A VIDEO">
+				<input id="more_resources_button" href="#" type="button" value="MORE RESOURCES">
+			</div>
+			<div id="ninja_ad">
+				<p id="ninja_text">Reinvent your career in just 14 weeks</p>
+				<img id="ninja_png" src="./images/ninja.png">
+				<input id="learn_more_button" href="#" type="button" name="LEARN_MORE" value="Learn More >>>">
+			</div>
+		</div>
+		<!--End of Sidebar-->
+		<!--Main Content Block-->
+		<div id="mc_container">
+			<div id="mc_head">
+				<p id="dns"><img id="home_png" src="./images/home.png"><span class="title_highlight">DNS</span></p>
+				<div id="mc_head_right">
+					<img id="phone_png" src="./images/phone.png">
+					<div id="ci_text_container">
+						<p class="ci_text">Mon - Fri 9 a.m. - 5 p.m. (EST)</p>
+						<p class="ci_text2">855.967.3787</p>
+						<p class="ci_text">International +1.617.963.0555</p>
+					</div>
+				</div>
+			</div>
+			<div id="mc_body">
+				<!--Clients and Servers Blurb-->
+				<h3 id="mc_body_title">Clients and Servers</h3>
+				<p id="mc_subtitle">Computers connected to the <span class="highlight_3">Web</span> are called <span class="bold">clients</span> and <span class="bold">servers.</span></p>
+				<ul id="c_and_s_list">
+					<li><span class="highlight_3">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="highlight_3">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome)</li>
+					<li><span class="highlight_3">Servers</span> are computers that store <span class="highlight_3">webpages</span>, <span class="highlight_3">sites</span>, or <span class="highlight_3">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+				</ul>
+				<img id="client_server_jpg" src="./images/client_server.jpg">
+				<!--So What Actually Happens? Blurb-->
+				<h3 id="mc_body_title">So What Actually Happens?</h3>
+				<ul id="so_what_list">
+					<li>The browser goes to the <span class="highlight_3">DNS server</span> and finds the real address of the <span class="highlight_3">server</span> that the website lives on.</li>
+					<li>The browser sends an<span class="highlight_3">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+					<li>If the server approves the client's request, the server sends the client a <span class="highlight_3">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+					<li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+				</ul>
+			</div>
+			<div id="mc_footer">
+				<img id="html_png" src="./images/html.png">
+				<div id="footer_blurb">
+					<h3 id="footer_title">The Big 3 - HTML, CSS, JavaScript</h3>
+					<p class="footer_body">While the server can process information in many different languages, the files that they serve to the client are <span id="italicize">always</span> going to be some combination of HTML, CSS, and JavaScript!</p>
+					<p class="footer_body">Learn more about the Big 3 <a class="highlight_3" href="#">here</a>!</p>
+				</div>
+			</div>
+		</div>		
+	</body>
+</html>

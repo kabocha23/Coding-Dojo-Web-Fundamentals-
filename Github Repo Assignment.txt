@@ -1,0 +1,14 @@
+cd desktop
+md GitHubRepoAssignment
+cd GitHubRepoAssignment
+git init
+copy NUL readme.md
+notepad readme.md
+// added text
+git add .
+git commit -m "readme.md"
+git status
+git add readme.md
+git commit -m "updated readme"
+git remote add origin https://github.com/kabocha23/GitHubRepoAssignment.git
+git push -u origin master
